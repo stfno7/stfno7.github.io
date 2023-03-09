@@ -1,0 +1,79 @@
+/** SITIO WEB MAQUETADO EN 1920X1080 **/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap'); /** Fuente Roboto. Titulos **/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@0,100;1,300&display=swap'); /** Fuente Montserrat. Parrafos **/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+width: 100%;
+height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+a:visited { /** PSEUDO-CLASE VISTA EN CLASE Nº5 **/
+    color: black;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 5vh;
+    text-shadow: 2px 1px white;
+    margin-top: 100px;
+    height: 10px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.9px;
+}
+img {
+    max-width: 300px;
+    height: 230px;
+    border-top-right-radius: 5%;
+}
+
+#div-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+div {
+    background-color: white;
+    height: 400px fit-content;
+    width: 300px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    box-shadow: 1px 1px 3px rgb(214, 214, 214);
+    overflow: hidden;
+}
+
+div:hover {
+    cursor: pointer;
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+.cal-photo {
+    width: 300px;
+}
